@@ -1,5 +1,4 @@
 # tekrar_eden_sayilari_bul
-/*****************************************************************
 Isim  : Furkan Tuluk
 Tarih : 2023/10/20
 Aciklamalar:
@@ -7,4 +6,4 @@ Aciklamalar:
 *   listeye atan algoritma yazilmistir.
 * - Clean code kismi gelistirilmeye aciktir.
 * - doxygen formatina uygun olarak revize edilecektir.
-*****************************************************************/
+

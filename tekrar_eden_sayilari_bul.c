@@ -4,7 +4,16 @@ typedef unsigned int  UINT32;
 typedef char          UINT8;
 typedef unsigned long UINT16;
 
-
+/************************************************
+* Isim : Furkan Tuluk
+* Tarih: 22/10/2023
+* Aciklama: Bu fonksiyon bir liste icerisinde tekrar
+			eden sayilarin bulunmasini saglamaktadir.
+* @param1:[UINT16 *list_u16a] sayilarin bulundugu dizi.
+* @param2:[UINT8   arr_len_u8] dizinin uzunlugu.
+* not    :
+* return :[void]
+***********************************************/
 void tekrar_eden_sayilari_bul(UINT32 *list_u32a, 
 	                          UINT8   arr_len_u8)
 {
@@ -38,7 +47,7 @@ void tekrar_eden_sayilari_bul(UINT32 *list_u32a,
 			sayac_u16 = ilk_deger_u8;
 		}
 	}
-	// son indeks kontrolü yapilmadigi icin burada son indeks kontrolu yapilir.
+	//!< son indeks kontrolü yapilmadigi icin burada son indeks kontrolu yapilir.
 	if (list_u32a[arr_len_u8 - 1] == list_u32a[arr_len_u8 - 2])
 	{
 		new_list_u16a[new_list_index_u16] = list_u32a[arr_len_u8 - 1];

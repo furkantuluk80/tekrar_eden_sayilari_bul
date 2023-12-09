@@ -4,6 +4,8 @@ typedef unsigned int  UINT32;
 typedef char          UINT8;
 typedef unsigned long UINT16;
 
+#define DIZI_BOYUT (20U)
+
 /************************************************
 * Isim : Furkan Tuluk
 * Tarih: 22/10/2023
@@ -17,7 +19,7 @@ typedef unsigned long UINT16;
 void tekrar_eden_sayilari_bul(UINT32 *list_u32a, 
 	                          UINT8   arr_len_u8)
 {
-	UINT16  new_list_u16a[20] = { 0 };                 //!< tekrarlanan sayilarin eklenecegi liste
+	UINT16  new_list_u16a[DIZI_BOYUT] = { 0 };                 //!< tekrarlanan sayilarin eklenecegi liste
 	UINT32 *baslangic_addr_u32 = list_u32a;            //!< dizinin baslangic adresinin alinmasi
 	UINT16  sayac_u16 = 0;							   //!< for icinde dizinin uzunlugu kadar donecek sayac
 	UINT8   tekrar_varmi_u8 = 0;					   //!< listenin icinde tekrar oldugu zaman kalkacak flag
